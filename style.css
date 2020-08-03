@@ -1,0 +1,211 @@
+* {
+	box-sizing: border-box;
+	font-family: Lato, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.75;
+}
+body {
+	margin: 0;
+	color:  #939393;
+}
+h1 {
+	padding-left: 200px;
+	color: #939393;
+}
+ul {
+	padding-left: 0;
+	font-size: 14px;
+	list-style-type: none;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+article {
+	display: block;
+	width: 100%;
+	height: 50%;
+}
+p {
+	font-weight: 300;
+}
+li {
+	display: inline-block;
+	margin: 20px;
+}
+section {
+	background-color: #f8f8f8;
+}
+.block, .description {
+	display: inline-block;
+    background-color: #f8f8f8;
+	padding: 35px 40px;
+}
+.contact {
+	display: inline-block;
+	height: 200px;
+	padding: 35px 40px;
+}
+.block, .text {
+	width: 70%;
+	background-color: #fcfcfc;
+}
+.list-title {
+	font-weight: bold;
+}
+.description, .expertise, .contact {
+	float: left;
+	width: 30%;
+	background-color: #f8f8f8;
+	text-align: right;
+	color: #727272;
+}
+
+.head-avatar, .contact {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 35px 40px;
+	background-color: #f8f8f8;
+}
+.data, .footer-data {
+	display: inline-block;
+	width: 70%;
+	padding: 35px 40px;
+}
+.data .data-name {
+	height: 60%;
+}
+footer .footer-name {
+	height: 60%;
+}
+.expertise {
+	display: inline-block;
+	padding: 35px 40px;
+}
+.text {
+	display: inline-block;
+	padding: 35px 40px;
+	background-color: #f8f8f8;
+}
+.text-block {
+    width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+.block-cell {
+	display: inline-block;
+	width: 50%;
+	margin-top: 25px;
+	font-size: 15px;
+}
+.cell-nomber {
+	display: inline-block;
+    font-weight: 600;
+	text-align: right;
+	color: #F8BB10;
+}
+.cell-skill {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+} 
+.cell-skill h3 {
+	margin: 0;
+	padding-left:20px;
+	text-transform: uppercase;
+	color: #727272;
+}
+.cell-skill ul {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.cell-skill li {
+	margin: 10px 0 0;
+	padding-left:20px;
+}
+
+.head-avatar {
+	display: table;
+}
+.avatar_img {
+	display: table-cell;
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+}
+img.avatar_img {
+	width: 100%;
+	max-width: 180px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.data .social-buttons, .footer-name .social-buttons {
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+.footer-name .social-buttons {
+	float: right;
+}
+ .social-buttons ul {
+	padding: 0;
+	margin: 0;
+}
+.social-buttons li {
+	margin: 0;
+}
+.social-buttons img {
+	width: 25px;
+	height: 25px;
+}	
+.line {
+	background-color: #ececec;
+	height: 1px;
+	border: 0;
+	font-size: 0;
+}
+div.first-name, div.last-name {
+	width: 50%;
+}
+.data-name h1, .footer-name h1 {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1;
+}
+.last-name h1 {
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #F8BB10;
+}
+.profession {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	font-weight: 300;
+}
+.clearfix {
+    clear: both;
+}
+h1, h4, .list-title p, .technology1 p, .technology2 p, .technology3 p {
+	font-weight: 700;
+}
+.first-name h1, .first-name h1 {
+	font-weight: 300;
+	font-size: 28px;
+}
+
+
+@media(max-width: 750px) {
+	.block-cell {
+	
+	width: 100%;
+}
+}
